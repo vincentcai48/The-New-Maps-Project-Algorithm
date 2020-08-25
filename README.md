@@ -9,14 +9,26 @@ No Breaking Changes
 
 ## How to use:
 
-Run with JDK 11+  
-Download Repository and open it in your desired program. You may need to configure and move around files to run the program in specific IDE or Editor. (All code for the algorithm is in the "src" folder, run "Main.java")  
-Put an input file in "inputfiles" directory, see below for the format of this file.    
-Run Main.java in the "src" directory with 4 command line arguments: state name, input file name (in the "inputfiles" directory), # of districts, threshold (as a decimal percent)  
-**Example Program Arguments:** "Rhode Island" "sampleinput.txt" "2" "0.95"
+### Run Locally 
+
+**MUST have Java installed, preferably JDK 11 or higher**
+
+1. Download the repository onto your local system
+2. Put an input file in "inputfiles" directory, see below "Input File Format" for the required format of this file.    
+3. Open the command line to compile the code, "cd" into the folder with all the code and run "javac \*.java". (This compiles all .java files)   
+4. Run the program's Main class with 4 command line arguments: state name, input file name (in the "inputfiles" directory), # of districts, threshold (as a decimal percent). 
+**Example Execution:** java Main "Rhode Island" "sampleinput.txt" "2" "0.95"
+5. When the program has finished running and it prints "Successfully written to results.txt", open the result.txt file and retrieve the output data. See below "Retrieve Output Data" for the file format. 
+
+### Quick Run on Repl.it
+
+
+
+## File Formats
 
 ### Input File Format: 
 **Will not work if not in this format:** .txt files with Comma separated values. Each line: town name, population, latitude, longitude (latitude and longitude are numerical values, do not put N/S/E/W).
+
 
 **Example:**  
   
