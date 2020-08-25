@@ -11,7 +11,7 @@ No Breaking Changes
 
 ### Run Locally 
 
-**MUST have Java installed, preferably JDK 11 or higher**
+**Must have Java installed, preferably JDK 11 or higher**
 
 1. Download the repository onto your local system
 2. Put an input file in "inputfiles" directory, see below "Input File Format" for the required format of this file.    
