@@ -20,9 +20,6 @@ No Breaking Changes
 **Example Execution:** java Main "Rhode Island" "rhodeisland.txt" "2" "0.95"
 5. When the program has finished running and it prints "Successfully written to results.txt", open the result.txt file and retrieve the output data. See below "Retrieve Output Data" for the file format. 
 
-### Quick Run on Repl.it
-
-
 
 ## File Formats
 
